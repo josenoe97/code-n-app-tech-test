@@ -1,0 +1,15 @@
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\Fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\Fibonacci.AssemblyInfoInputs.cache
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\Fibonacci.AssemblyInfo.cs
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\Fibonacci.csproj.CoreCompileInputs.cache
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\Fibonacci.sourcelink.json
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\bin\Debug\net10.0\Fibonacci.exe
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\bin\Debug\net10.0\Fibonacci.deps.json
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\bin\Debug\net10.0\Fibonacci.runtimeconfig.json
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\bin\Debug\net10.0\Fibonacci.dll
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\bin\Debug\net10.0\Fibonacci.pdb
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\Fibonacci.dll
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\refint\Fibonacci.dll
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\Fibonacci.pdb
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\Fibonacci.genruntimeconfig.cache
+D:\Projetos\processo_seletivo\code_n_app\Fibonacci\Fibonacci\obj\Debug\net10.0\ref\Fibonacci.dll
