@@ -1,0 +1,15 @@
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\bin\Debug\net10.0\TextoGritado.exe
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\bin\Debug\net10.0\TextoGritado.deps.json
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\bin\Debug\net10.0\TextoGritado.runtimeconfig.json
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\bin\Debug\net10.0\TextoGritado.dll
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\bin\Debug\net10.0\TextoGritado.pdb
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\TextoGritado.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\TextoGritado.AssemblyInfoInputs.cache
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\TextoGritado.AssemblyInfo.cs
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\TextoGritado.csproj.CoreCompileInputs.cache
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\TextoGritado.sourcelink.json
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\TextoGritado.dll
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\refint\TextoGritado.dll
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\TextoGritado.pdb
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\TextoGritado.genruntimeconfig.cache
+D:\Projetos\processo_seletivo\code_n_app\TextoGritado\TextoGritado\obj\Debug\net10.0\ref\TextoGritado.dll
