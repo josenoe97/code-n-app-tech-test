@@ -1,0 +1,61 @@
+CREATE PROCEDURE sp_FinalizarOrcamento
+    @OrcamentoId INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @StatusAtual VARCHAR(50);
+    DECLARE @ValorTotal DECIMAL(18,2);
+
+    -- 1. Verificar se o orçamento existe
+    IF NOT EXISTS (SELECT 1 FROM Orcamento WHERE Id = @OrcamentoId)
+    BEGIN
+        SELECT 0 AS Sucesso, 'Orçamento não encontrado' AS Mensagem;
+        RETURN;
+    END
+
+    -- 2. Verificar status atual
+    SELECT @StatusAtual = Status
+    FROM Orcamento
+    WHERE Id = @OrcamentoId;
+
+    IF (@StatusAtual <> 'Aberto')
+    BEGIN
+        SELECT 0 AS Sucesso, 'Orçamento não está em aberto' AS Mensagem;
+        RETURN;
+    END
+
+    -- 3. Verificar se possui itens
+    IF NOT EXISTS (SELECT 1 FROM OrcamentoItem WHERE OrcamentoId = @OrcamentoId)
+    BEGIN
+        SELECT 0 AS Sucesso, 'Orçamento sem itens' AS Mensagem;
+        RETURN;
+    END
+
+    BEGIN TRY
+        BEGIN TRANSACTION;
+
+        -- 4. Recalcular valor total (Quantidade * ValorUnitario)
+        SELECT @ValorTotal = SUM(Quantidade * ValorUnitario)
+        FROM OrcamentoItem
+        WHERE OrcamentoId = @OrcamentoId;
+
+        -- 5. Atualizar orçamento
+        UPDATE Orcamento
+        SET 
+            ValorTotal = @ValorTotal,
+            Status = 'Finalizado',
+            DataFinalizacao = GETDATE()
+        WHERE Id = @OrcamentoId;
+
+        COMMIT;
+
+        -- 6. Retorno de sucesso
+        SELECT 1 AS Sucesso, 'Orçamento finalizado com sucesso' AS Mensagem;
+    END TRY
+    BEGIN CATCH
+        ROLLBACK;
+
+        SELECT 0 AS Sucesso, ERROR_MESSAGE() AS Mensagem;
+    END CATCH
+END;
