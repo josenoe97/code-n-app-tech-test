@@ -1,0 +1,9 @@
+Cite as diferenças e dê exemplos práticos para cada um dos itens abaixo: - View - Table-valued Function - Stored Procedure - Trigger
+
+- View: Se trata de uma tabela virtual ou temporária, não armazena dados fisicamente, é usada pra simplificar consultas, por exemplo, consigo unir duas tabelas em uma só dinamicamente. 
+
+- Table-valued Function: É uma função que retorna uma tabela, pode receber parâmetros, retorna uma tabela como resultado, por exemplo, consigo passa um VARCHAR no parâmetro tipo CREATE FUNCTION nomeFuncao (VARCHAR(100)) 
+
+- Stored Procedure: Pode ter lógica bem parecido com programação em si, podendo alterar os dados de acordo com a condição implementada, por exemplo," IF EXISTS (SELECT Clientes Where Id = ClienteID)" 
+
+- Trigger: É disparada automaticamente quando ocorre um ação de deletar, inserir e atualizar no sistema, não pode ser acionada manualmente. Por exemplo, deletei um funcionário do sistema, vai ser acionada a trigger desvinculando esse funcionário de todas as outras tabelas, dependendo de como for configurada a trigger.
