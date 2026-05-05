@@ -1,0 +1,14 @@
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\bin\Debug\net10.0\Palindromo.exe
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\bin\Debug\net10.0\Palindromo.deps.json
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\bin\Debug\net10.0\Palindromo.runtimeconfig.json
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\bin\Debug\net10.0\Palindromo.dll
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\bin\Debug\net10.0\Palindromo.pdb
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\obj\Debug\net10.0\Palindromo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\obj\Debug\net10.0\Palindromo.AssemblyInfoInputs.cache
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\obj\Debug\net10.0\Palindromo.AssemblyInfo.cs
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\obj\Debug\net10.0\Palindromo.csproj.CoreCompileInputs.cache
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\obj\Debug\net10.0\Palindromo.dll
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\obj\Debug\net10.0\refint\Palindromo.dll
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\obj\Debug\net10.0\Palindromo.pdb
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\obj\Debug\net10.0\Palindromo.genruntimeconfig.cache
+D:\Projetos\processo_seletivo\code_n_app\Palindromo\Palindromo\obj\Debug\net10.0\ref\Palindromo.dll
